@@ -1,0 +1,26 @@
+
+
+body {
+    margin: 2rem; 
+    background: #00f; 
+    color: #fff; 
+} 
+@font-face {
+    font-family: "NBI";
+    src: url("NBI.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-default: "NBI", sans-serif;
+}
+
+html {
+    font-family: var(--font-default);
+}
+
+*, *::before, *::after {
+    font-family: inherit;
+}
